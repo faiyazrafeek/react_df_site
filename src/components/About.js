@@ -6,7 +6,7 @@ export class About extends Component {
             <section id="about">
                 <div className="about-us container">
                     <div className="abt-img">
-                    <img src="https://source.unsplash.com/random/400x400" />
+                    <img src="https://source.unsplash.com/random/400x400" alt="about-cover"/>
                     </div>
                     <div className="abt-content">
                     <h2>Get to know about us</h2>
