@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+.navbar{
+    font-family: Poppins;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-dark{
+    background: #E2C044 !important;
+    color: #202119 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link{
+    color: #202119 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #202119 !important;
 }
 
-.App-link {
-  color: #61dafb;
+section#main, section#about, section#portfolio, section#contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Main Section */
+.showcase{
+    text-align: center;
+}
+
+.showcase h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.showcase p{
+    font-size: 1.5rem;
+}
+
+img{
+    width: 100%;
+}
+
+/* About Section */
+.about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.about-us .abt-content, .contact-us .con-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-us .abt-content h2, .contact-us .con-content h2{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.about-us .abt-content p, .contact-us .con-content p{
+    font-size: 1.2rem;
+}
+
+/* Portfolio Section */
+
+.our-works {
+    display: flex;
+}
+
+.work{
+    margin: 20px;
+}
+
+.our-works .card{
+    display: flex;
+    flex-direction: column;
+}
+
+.our-works .card .card-content{
+    background: #202119;
+    color: #F3F3F3;
+    padding: 20px ;
+    text-align: justify;
+}
+
+.our-works .card .card-content h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    background: #F3F3F3;
+    color: #202119;
+    margin-top: 15px;
+}
+
+/* Contact Section */
+.contact-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.contact-us .con-content{
+    padding: 0 10px;
+}
+
+.contact-us .form-right h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
