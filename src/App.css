@@ -116,3 +116,30 @@ img{
     font-size: 2rem;
     margin-bottom: 20px;
 }
+
+@media (max-width: 500px){
+    section#main, section#about, section#portfolio, section#contact {
+        height: auto;
+        padding: 25px 0;
+    }
+
+    /* About Section */
+    .about-us{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .our-works {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Contact Section */
+    .contact-us{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    
+}
