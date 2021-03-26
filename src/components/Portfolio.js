@@ -6,7 +6,7 @@ export class Portfolio extends Component {
             <section id="portfolio">
   <div className="our-works container">
     <div className="card work">
-      <img className="card-cover" src="https://source.unsplash.com/random/302x300" alt />               
+      <img className="card-cover" src="https://source.unsplash.com/random/302x300" alt="w1" />               
       <div className="card-content">
         <h3>Work 1</h3>                    
         <p>
@@ -16,7 +16,7 @@ export class Portfolio extends Component {
       </div>
     </div>
     <div className="card work">
-      <img className="card-cover" src="https://source.unsplash.com/random/300x300" alt />               
+      <img className="card-cover" src="https://source.unsplash.com/random/300x300" alt="w2" />               
       <div className="card-content">
         <h3>Work 1</h3>                    
         <p>
@@ -26,7 +26,7 @@ export class Portfolio extends Component {
       </div>
     </div>
     <div className="card work">
-      <img className="card-cover" src="https://source.unsplash.com/random/301x301" alt />               
+      <img className="card-cover" src="https://source.unsplash.com/random/301x301" alt="w2" />               
       <div className="card-content">
         <h3>Work 1</h3>                    
         <p>
