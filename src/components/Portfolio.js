@@ -12,7 +12,7 @@ export class Portfolio extends Component {
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima quos quia ducimus.
         </p>
-        <a href="#" className="btn">Read More</a>
+        <a href="#!" className="btn">Read More</a>
       </div>
     </div>
     <div className="card work">
@@ -22,7 +22,7 @@ export class Portfolio extends Component {
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima quos quia ducimus.
         </p>
-        <a href="#" className="btn">Read More</a>
+        <a href="#!" className="btn">Read More</a>
       </div>
     </div>
     <div className="card work">
@@ -32,7 +32,7 @@ export class Portfolio extends Component {
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima quos quia ducimus.
         </p>
-        <a href="#" className="btn">Read More</a>
+        <a href="#!" className="btn">Read More</a>
       </div>
     </div>          
   </div>
